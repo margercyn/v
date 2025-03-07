@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Call"
+    android:orientation="vertical">
+
+  <RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="170dp"
+      android:background="@color/start">
+
+      <LinearLayout
+          android:layout_width="900dp"
+          android:layout_height="80dp"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="40dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:weightSum="3">
+              <LinearLayout
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+                  <ImageButton
+                      android:layout_width="60dp"
+                      android:layout_height="60dp"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="125"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:paddingTop="1dp"
+                      android:textColor="@color/end"/>
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+                  <ImageButton
+                      android:layout_width="60dp"
+                      android:layout_height="60dp"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="1205"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:paddingTop="1dp"
+                      android:textColor="@color/end"/>
+
+              </LinearLayout>
+              <LinearLayout
+                  android:gravity="center"
+                  android:orientation="vertical"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="match_parent">
+                  <ImageButton
+                      android:layout_width="60dp"
+                      android:layout_height="60dp"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="360"
+                      android:textStyle="bold"
+                      android:textSize="14sp"
+                      android:paddingTop="1dp"
+                      android:textColor="@color/end"/>
+
+              </LinearLayout>
+          </LinearLayout>
+      </LinearLayout>
+
+
+
+  </RelativeLayout>
+    </LinearLayout>
+

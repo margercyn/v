@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regist"
+    android:background="@drawable/rcolot">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="VolonHelp"
+        android:theme="@style/logo"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/bcolor2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="29dp"
+            android:padding="15dp"
+            android:text="Регистрация"
+            android:id="@+id/R_yuu"
+            android:theme="@style/red"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/R_yuu"
+            android:padding="30dp"
+            android:id="@+id/lop">
+
+
+            <EditText
+                android:id="@+id/nik"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="ник"
+                android:padding="10dp"
+                android:background="@drawable/tcolor"
+                android:backgroundTint="@color/cer"
+                android:theme="@style/min">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="почта"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tcolor"
+                android:backgroundTint="@color/cer"
+                android:theme="@style/min">
+            </EditText>
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="пароль"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tcolor"
+                android:backgroundTint="@color/cer"
+                android:theme="@style/min">
+            </EditText>
+            <EditText
+                android:id="@+id/pass2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="повторить пароль"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tcolor"
+                android:backgroundTint="@color/cer"
+                android:theme="@style/min">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pere2"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="Авторитизация"
+            android:textColor="@color/cer"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/lop"
+            android:background="@drawable/bcolor"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

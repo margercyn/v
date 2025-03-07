@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rcolot"
+    tools:context=".MainActivity"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logo"
+        />
+
+    <Button
+        android:id="@+id/pere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:width="280dp"
+        android:height="55dp"
+        android:background="@drawable/bcolor"
+        android:text="Регистрация"
+        android:textColor="@color/tect" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:width="280dp"
+        android:height="55dp"
+        android:layout_marginTop="565dp"
+        android:background="@drawable/bcolor2"
+        android:text="Авторитизация"
+        android:textColor="@color/tect"
+        />
+
+    </RelativeLayout>
+
+ 

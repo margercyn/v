@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="start">#00AFB9</color>
+    <color name="end">#FDE9B7</color>
+
+    <color name="button">#000000</color>
+    <color name="button2">#FBF8F8</color>
+
+    <color name="tect">#C6B7B7</color>
+
+    <color name="cer">#EBE8E8</color>
+
+
+</resources>
